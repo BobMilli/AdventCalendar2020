@@ -1,0 +1,27 @@
+**********************
+PowerShell transcript start
+Start time: 20201205200253
+Username: DSONE\RMI1
+RunAs User: DSONE\RMI1
+Configuration Name: 
+Machine: LP5-RMI1-DSY (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2020.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\modules' -EnableConsoleRepl -StartupBanner "=====> PowerShell Integrated Console v2020.6.0 <=====
+" -LogLevel 'Normal' -LogPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\logs\1607112814-48ac72dc-6123-484a-8644-92c131a1c62e1607019367683\EditorServices.log' -SessionDetailsPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\sessions\PSES-VSCode-40924-521039' -FeatureFlags @() 
+Process ID: 50616
+PSVersion: 7.1.0
+PSEdition: Core
+GitCommitId: 7.1.0
+OS: Microsoft Windows 10.0.18363
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+807 values to check !
+Max Seat ID = 813
+My Seat 611
+**********************
+PowerShell transcript end
+End time: 20201205200253
+**********************
