@@ -1,0 +1,549 @@
+**********************
+PowerShell transcript start
+Start time: 20201205142004
+Username: DSONE\RMI1
+RunAs User: DSONE\RMI1
+Configuration Name: 
+Machine: LP5-RMI1-DSY (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2020.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\modules' -EnableConsoleRepl -StartupBanner "=====> PowerShell Integrated Console v2020.6.0 <=====
+" -LogLevel 'Normal' -LogPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\logs\1607112814-48ac72dc-6123-484a-8644-92c131a1c62e1607019367683\EditorServices.log' -SessionDetailsPath 'c:\Users\RMI1\.vscode\extensions\ms-vscode.powershell-2020.6.0\sessions\PSES-VSCode-40924-521039' -FeatureFlags @() 
+Process ID: 50616
+PSVersion: 7.1.0
+PSEdition: Core
+GitCommitId: 7.1.0
+OS: Microsoft Windows 10.0.18363
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+1009 values to check !
+#Part1
+Controlling Passport 1 / Password Control = 11111110 / Number of valid Passports = 1
+Controlling Passport 2 / Password Control = 11111111 / Number of valid Passports = 2
+Controlling Passport 3 / Password Control = 11111111 / Number of valid Passports = 3
+Controlling Passport 4 / Password Control = 11111110 / Number of valid Passports = 4
+Controlling Passport 5 / Password Control = 11111110 / Number of valid Passports = 5
+Controlling Passport 6 / Password Control = 11111111 / Number of valid Passports = 6
+Controlling Passport 7 / Password Control = 11111111 / Number of valid Passports = 7
+Controlling Passport 8 / Password Control = 11111111 / Number of valid Passports = 8
+Controlling Passport 9 / Password Control = 11111111 / Number of valid Passports = 9
+Controlling Passport 10 / Password Control = 10111111 / Number of valid Passports = 9
+Controlling Passport 11 / Password Control = 10111111 / Number of valid Passports = 9
+Controlling Passport 12 / Password Control = 11111111 / Number of valid Passports = 10
+Controlling Passport 13 / Password Control = 11111111 / Number of valid Passports = 11
+Controlling Passport 14 / Password Control = 11111110 / Number of valid Passports = 12
+Controlling Passport 15 / Password Control = 11111111 / Number of valid Passports = 13
+Controlling Passport 16 / Password Control = 11111110 / Number of valid Passports = 14
+Controlling Passport 17 / Password Control = 11111110 / Number of valid Passports = 15
+Controlling Passport 18 / Password Control = 11111111 / Number of valid Passports = 16
+Controlling Passport 19 / Password Control = 11111110 / Number of valid Passports = 17
+Controlling Passport 20 / Password Control = 11111110 / Number of valid Passports = 18
+Controlling Passport 21 / Password Control = 11111111 / Number of valid Passports = 19
+Controlling Passport 22 / Password Control = 11111110 / Number of valid Passports = 20
+Controlling Passport 23 / Password Control = 11111111 / Number of valid Passports = 21
+Controlling Passport 24 / Password Control = 11111111 / Number of valid Passports = 22
+Controlling Passport 25 / Password Control = 11011111 / Number of valid Passports = 22
+Controlling Passport 26 / Password Control = 11111110 / Number of valid Passports = 23
+Controlling Passport 27 / Password Control = 11111110 / Number of valid Passports = 24
+Controlling Passport 28 / Password Control = 11111111 / Number of valid Passports = 25
+Controlling Passport 29 / Password Control = 11111111 / Number of valid Passports = 26
+Controlling Passport 30 / Password Control = 11111110 / Number of valid Passports = 27
+Controlling Passport 31 / Password Control = 11111110 / Number of valid Passports = 28
+Controlling Passport 32 / Password Control = 11111110 / Number of valid Passports = 29
+Controlling Passport 33 / Password Control = 11111111 / Number of valid Passports = 30
+Controlling Passport 34 / Password Control = 11111111 / Number of valid Passports = 31
+Controlling Passport 35 / Password Control = 11111111 / Number of valid Passports = 32
+Controlling Passport 36 / Password Control = 11111110 / Number of valid Passports = 33
+Controlling Passport 37 / Password Control = 11111110 / Number of valid Passports = 34
+Controlling Passport 38 / Password Control = 11111011 / Number of valid Passports = 34
+Controlling Passport 39 / Password Control = 11111110 / Number of valid Passports = 35
+Controlling Passport 40 / Password Control = 11111110 / Number of valid Passports = 36
+Controlling Passport 41 / Password Control = 11111111 / Number of valid Passports = 37
+Controlling Passport 42 / Password Control = 11111100 / Number of valid Passports = 37
+Controlling Passport 43 / Password Control = 11111011 / Number of valid Passports = 37
+Controlling Passport 44 / Password Control = 11111110 / Number of valid Passports = 38
+Controlling Passport 45 / Password Control = 11111110 / Number of valid Passports = 39
+Controlling Passport 46 / Password Control = 11111110 / Number of valid Passports = 40
+Controlling Passport 47 / Password Control = 11111111 / Number of valid Passports = 41
+Controlling Passport 48 / Password Control = 11111111 / Number of valid Passports = 42
+Controlling Passport 49 / Password Control = 11111110 / Number of valid Passports = 43
+Controlling Passport 50 / Password Control = 11111110 / Number of valid Passports = 44
+Controlling Passport 51 / Password Control = 11111110 / Number of valid Passports = 45
+Controlling Passport 52 / Password Control = 11111110 / Number of valid Passports = 46
+Controlling Passport 53 / Password Control = 11111110 / Number of valid Passports = 47
+Controlling Passport 54 / Password Control = 11111110 / Number of valid Passports = 48
+Controlling Passport 55 / Password Control = 11111110 / Number of valid Passports = 49
+Controlling Passport 56 / Password Control = 11111111 / Number of valid Passports = 50
+Controlling Passport 57 / Password Control = 11111111 / Number of valid Passports = 51
+Controlling Passport 58 / Password Control = 11111111 / Number of valid Passports = 52
+Controlling Passport 59 / Password Control = 11011111 / Number of valid Passports = 52
+Controlling Passport 60 / Password Control = 11111110 / Number of valid Passports = 53
+Controlling Passport 61 / Password Control = 11111011 / Number of valid Passports = 53
+Controlling Passport 62 / Password Control = 11111111 / Number of valid Passports = 54
+Controlling Passport 63 / Password Control = 10111110 / Number of valid Passports = 54
+Controlling Passport 64 / Password Control = 11011010 / Number of valid Passports = 54
+Controlling Passport 65 / Password Control = 11111110 / Number of valid Passports = 55
+Controlling Passport 66 / Password Control = 11111110 / Number of valid Passports = 56
+Controlling Passport 67 / Password Control = 11111111 / Number of valid Passports = 57
+Controlling Passport 68 / Password Control = 11111111 / Number of valid Passports = 58
+Controlling Passport 69 / Password Control = 11111111 / Number of valid Passports = 59
+Controlling Passport 70 / Password Control = 11111110 / Number of valid Passports = 60
+Controlling Passport 71 / Password Control = 11111110 / Number of valid Passports = 61
+Controlling Passport 72 / Password Control = 11111111 / Number of valid Passports = 62
+Controlling Passport 73 / Password Control = 11111110 / Number of valid Passports = 63
+Controlling Passport 74 / Password Control = 11111111 / Number of valid Passports = 64
+Controlling Passport 75 / Password Control = 11111110 / Number of valid Passports = 65
+Controlling Passport 76 / Password Control = 11111110 / Number of valid Passports = 66
+Controlling Passport 77 / Password Control = 01110110 / Number of valid Passports = 66
+Controlling Passport 78 / Password Control = 11111010 / Number of valid Passports = 66
+Controlling Passport 79 / Password Control = 11111111 / Number of valid Passports = 67
+Controlling Passport 80 / Password Control = 11111111 / Number of valid Passports = 68
+Controlling Passport 81 / Password Control = 11111111 / Number of valid Passports = 69
+Controlling Passport 82 / Password Control = 11111110 / Number of valid Passports = 70
+Controlling Passport 83 / Password Control = 11111111 / Number of valid Passports = 71
+Controlling Passport 84 / Password Control = 11111110 / Number of valid Passports = 72
+Controlling Passport 85 / Password Control = 11111100 / Number of valid Passports = 72
+Controlling Passport 86 / Password Control = 11111111 / Number of valid Passports = 73
+Controlling Passport 87 / Password Control = 11111110 / Number of valid Passports = 74
+Controlling Passport 88 / Password Control = 11111111 / Number of valid Passports = 75
+Controlling Passport 89 / Password Control = 01111111 / Number of valid Passports = 75
+Controlling Passport 90 / Password Control = 11111110 / Number of valid Passports = 76
+Controlling Passport 91 / Password Control = 11111110 / Number of valid Passports = 77
+Controlling Passport 92 / Password Control = 11111110 / Number of valid Passports = 78
+Controlling Passport 93 / Password Control = 11101111 / Number of valid Passports = 78
+Controlling Passport 94 / Password Control = 11111110 / Number of valid Passports = 79
+Controlling Passport 95 / Password Control = 11111110 / Number of valid Passports = 80
+Controlling Passport 96 / Password Control = 01111111 / Number of valid Passports = 80
+Controlling Passport 97 / Password Control = 11111110 / Number of valid Passports = 81
+Controlling Passport 98 / Password Control = 11111110 / Number of valid Passports = 82
+Controlling Passport 99 / Password Control = 10111110 / Number of valid Passports = 82
+Controlling Passport 100 / Password Control = 11111111 / Number of valid Passports = 83
+Controlling Passport 101 / Password Control = 11111110 / Number of valid Passports = 84
+Controlling Passport 102 / Password Control = 11111111 / Number of valid Passports = 85
+Controlling Passport 103 / Password Control = 11111110 / Number of valid Passports = 86
+Controlling Passport 104 / Password Control = 11111111 / Number of valid Passports = 87
+Controlling Passport 105 / Password Control = 11111110 / Number of valid Passports = 88
+Controlling Passport 106 / Password Control = 11111011 / Number of valid Passports = 88
+Controlling Passport 107 / Password Control = 11111110 / Number of valid Passports = 89
+Controlling Passport 108 / Password Control = 11111110 / Number of valid Passports = 90
+Controlling Passport 109 / Password Control = 11111111 / Number of valid Passports = 91
+Controlling Passport 110 / Password Control = 10111111 / Number of valid Passports = 91
+Controlling Passport 111 / Password Control = 11111111 / Number of valid Passports = 92
+Controlling Passport 112 / Password Control = 11111111 / Number of valid Passports = 93
+Controlling Passport 113 / Password Control = 11111111 / Number of valid Passports = 94
+Controlling Passport 114 / Password Control = 11111110 / Number of valid Passports = 95
+Controlling Passport 115 / Password Control = 11111111 / Number of valid Passports = 96
+Controlling Passport 116 / Password Control = 11011110 / Number of valid Passports = 96
+Controlling Passport 117 / Password Control = 11111110 / Number of valid Passports = 97
+Controlling Passport 118 / Password Control = 11111111 / Number of valid Passports = 98
+Controlling Passport 119 / Password Control = 11111110 / Number of valid Passports = 99
+Controlling Passport 120 / Password Control = 11111110 / Number of valid Passports = 100
+Controlling Passport 121 / Password Control = 10111111 / Number of valid Passports = 100
+Controlling Passport 122 / Password Control = 11111111 / Number of valid Passports = 101
+Controlling Passport 123 / Password Control = 11111110 / Number of valid Passports = 102
+Controlling Passport 124 / Password Control = 11111110 / Number of valid Passports = 103
+Controlling Passport 125 / Password Control = 11111111 / Number of valid Passports = 104
+Controlling Passport 126 / Password Control = 11111110 / Number of valid Passports = 105
+Controlling Passport 127 / Password Control = 11111101 / Number of valid Passports = 105
+Controlling Passport 128 / Password Control = 11110111 / Number of valid Passports = 105
+Controlling Passport 129 / Password Control = 11111110 / Number of valid Passports = 106
+Controlling Passport 130 / Password Control = 11011111 / Number of valid Passports = 106
+Controlling Passport 131 / Password Control = 11111111 / Number of valid Passports = 107
+Controlling Passport 132 / Password Control = 11111110 / Number of valid Passports = 108
+Controlling Passport 133 / Password Control = 11111110 / Number of valid Passports = 109
+Controlling Passport 134 / Password Control = 11111011 / Number of valid Passports = 109
+Controlling Passport 135 / Password Control = 10110111 / Number of valid Passports = 109
+Controlling Passport 136 / Password Control = 11111110 / Number of valid Passports = 110
+Controlling Passport 137 / Password Control = 11111111 / Number of valid Passports = 111
+Controlling Passport 138 / Password Control = 11111110 / Number of valid Passports = 112
+Controlling Passport 139 / Password Control = 11111111 / Number of valid Passports = 113
+Controlling Passport 140 / Password Control = 11111110 / Number of valid Passports = 114
+Controlling Passport 141 / Password Control = 11111111 / Number of valid Passports = 115
+Controlling Passport 142 / Password Control = 11111100 / Number of valid Passports = 115
+Controlling Passport 143 / Password Control = 11111110 / Number of valid Passports = 116
+Controlling Passport 144 / Password Control = 11111110 / Number of valid Passports = 117
+Controlling Passport 145 / Password Control = 11111110 / Number of valid Passports = 118
+Controlling Passport 146 / Password Control = 11111101 / Number of valid Passports = 118
+Controlling Passport 147 / Password Control = 11111111 / Number of valid Passports = 119
+Controlling Passport 148 / Password Control = 11111111 / Number of valid Passports = 120
+Controlling Passport 149 / Password Control = 11111111 / Number of valid Passports = 121
+Controlling Passport 150 / Password Control = 11111111 / Number of valid Passports = 122
+Controlling Passport 151 / Password Control = 11111111 / Number of valid Passports = 123
+Controlling Passport 152 / Password Control = 11111110 / Number of valid Passports = 124
+Controlling Passport 153 / Password Control = 11111110 / Number of valid Passports = 125
+Controlling Passport 154 / Password Control = 11111111 / Number of valid Passports = 126
+Controlling Passport 155 / Password Control = 11111111 / Number of valid Passports = 127
+Controlling Passport 156 / Password Control = 11111111 / Number of valid Passports = 128
+Controlling Passport 157 / Password Control = 11111111 / Number of valid Passports = 129
+Controlling Passport 158 / Password Control = 11111111 / Number of valid Passports = 130
+Controlling Passport 159 / Password Control = 11111111 / Number of valid Passports = 131
+Controlling Passport 160 / Password Control = 11111111 / Number of valid Passports = 132
+Controlling Passport 161 / Password Control = 11111111 / Number of valid Passports = 133
+Controlling Passport 162 / Password Control = 11101110 / Number of valid Passports = 133
+Controlling Passport 163 / Password Control = 11111110 / Number of valid Passports = 134
+Controlling Passport 164 / Password Control = 11110110 / Number of valid Passports = 134
+Controlling Passport 165 / Password Control = 11111110 / Number of valid Passports = 135
+Controlling Passport 166 / Password Control = 11111010 / Number of valid Passports = 135
+Controlling Passport 167 / Password Control = 11111100 / Number of valid Passports = 135
+Controlling Passport 168 / Password Control = 11111111 / Number of valid Passports = 136
+Controlling Passport 169 / Password Control = 11111110 / Number of valid Passports = 137
+Controlling Passport 170 / Password Control = 11111110 / Number of valid Passports = 138
+Controlling Passport 171 / Password Control = 11111111 / Number of valid Passports = 139
+Controlling Passport 172 / Password Control = 11111111 / Number of valid Passports = 140
+Controlling Passport 173 / Password Control = 11011010 / Number of valid Passports = 140
+Controlling Passport 174 / Password Control = 11111111 / Number of valid Passports = 141
+Controlling Passport 175 / Password Control = 11111110 / Number of valid Passports = 142
+Controlling Passport 176 / Password Control = 11111111 / Number of valid Passports = 143
+Controlling Passport 177 / Password Control = 01111111 / Number of valid Passports = 143
+Controlling Passport 178 / Password Control = 01111100 / Number of valid Passports = 143
+Controlling Passport 179 / Password Control = 11111111 / Number of valid Passports = 144
+Controlling Passport 180 / Password Control = 11111110 / Number of valid Passports = 145
+Controlling Passport 181 / Password Control = 11111011 / Number of valid Passports = 145
+Controlling Passport 182 / Password Control = 11111111 / Number of valid Passports = 146
+Controlling Passport 183 / Password Control = 11111110 / Number of valid Passports = 147
+Controlling Passport 184 / Password Control = 11111110 / Number of valid Passports = 148
+Controlling Passport 185 / Password Control = 11111110 / Number of valid Passports = 149
+Controlling Passport 186 / Password Control = 11111110 / Number of valid Passports = 150
+Controlling Passport 187 / Password Control = 11111111 / Number of valid Passports = 151
+Controlling Passport 188 / Password Control = 11111110 / Number of valid Passports = 152
+Controlling Passport 189 / Password Control = 11111111 / Number of valid Passports = 153
+Controlling Passport 190 / Password Control = 11111110 / Number of valid Passports = 154
+Controlling Passport 191 / Password Control = 11111110 / Number of valid Passports = 155
+Controlling Passport 192 / Password Control = 10111110 / Number of valid Passports = 155
+Controlling Passport 193 / Password Control = 11111110 / Number of valid Passports = 156
+Controlling Passport 194 / Password Control = 11111111 / Number of valid Passports = 157
+Controlling Passport 195 / Password Control = 11111110 / Number of valid Passports = 158
+Controlling Passport 196 / Password Control = 11011111 / Number of valid Passports = 158
+Controlling Passport 197 / Password Control = 11111110 / Number of valid Passports = 159
+Controlling Passport 198 / Password Control = 11111111 / Number of valid Passports = 160
+Controlling Passport 199 / Password Control = 11101110 / Number of valid Passports = 160
+Controlling Passport 200 / Password Control = 11111110 / Number of valid Passports = 161
+Controlling Passport 201 / Password Control = 11111110 / Number of valid Passports = 162
+Controlling Passport 202 / Password Control = 11111110 / Number of valid Passports = 163
+Controlling Passport 203 / Password Control = 11111111 / Number of valid Passports = 164
+Controlling Passport 204 / Password Control = 11111110 / Number of valid Passports = 165
+Controlling Passport 205 / Password Control = 11111111 / Number of valid Passports = 166
+Controlling Passport 206 / Password Control = 11011111 / Number of valid Passports = 166
+Controlling Passport 207 / Password Control = 11111111 / Number of valid Passports = 167
+Controlling Passport 208 / Password Control = 11111111 / Number of valid Passports = 168
+Controlling Passport 209 / Password Control = 11110110 / Number of valid Passports = 168
+Controlling Passport 210 / Password Control = 11111110 / Number of valid Passports = 169
+Controlling Passport 211 / Password Control = 11111110 / Number of valid Passports = 170
+Controlling Passport 212 / Password Control = 11111111 / Number of valid Passports = 171
+Controlling Passport 213 / Password Control = 11111110 / Number of valid Passports = 172
+Controlling Passport 214 / Password Control = 10111110 / Number of valid Passports = 172
+Controlling Passport 215 / Password Control = 11111111 / Number of valid Passports = 173
+Controlling Passport 216 / Password Control = 11101110 / Number of valid Passports = 173
+Controlling Passport 217 / Password Control = 11111111 / Number of valid Passports = 174
+Controlling Passport 218 / Password Control = 11111111 / Number of valid Passports = 175
+Controlling Passport 219 / Password Control = 11110111 / Number of valid Passports = 175
+Controlling Passport 220 / Password Control = 11111110 / Number of valid Passports = 176
+Controlling Passport 221 / Password Control = 11111110 / Number of valid Passports = 177
+Controlling Passport 222 / Password Control = 11110110 / Number of valid Passports = 177
+Controlling Passport 223 / Password Control = 11111110 / Number of valid Passports = 178
+Controlling Passport 224 / Password Control = 11111110 / Number of valid Passports = 179
+Controlling Passport 225 / Password Control = 11111110 / Number of valid Passports = 180
+Controlling Passport 226 / Password Control = 11111111 / Number of valid Passports = 181
+Controlling Passport 227 / Password Control = 11111111 / Number of valid Passports = 182
+Controlling Passport 228 / Password Control = 11111111 / Number of valid Passports = 183
+Controlling Passport 229 / Password Control = 01101110 / Number of valid Passports = 183
+Controlling Passport 230 / Password Control = 11111111 / Number of valid Passports = 184
+Controlling Passport 231 / Password Control = 11111111 / Number of valid Passports = 185
+Controlling Passport 232 / Password Control = 11111111 / Number of valid Passports = 186
+Controlling Passport 233 / Password Control = 11111110 / Number of valid Passports = 187
+Controlling Passport 234 / Password Control = 01111110 / Number of valid Passports = 187
+Controlling Passport 235 / Password Control = 11111111 / Number of valid Passports = 188
+Controlling Passport 236 / Password Control = 11111110 / Number of valid Passports = 189
+Controlling Passport 237 / Password Control = 11111111 / Number of valid Passports = 190
+Controlling Passport 238 / Password Control = 11111110 / Number of valid Passports = 191
+Controlling Passport 239 / Password Control = 11111110 / Number of valid Passports = 192
+Controlling Passport 240 / Password Control = 11010111 / Number of valid Passports = 192
+Controlling Passport 241 / Password Control = 11111111 / Number of valid Passports = 193
+Controlling Passport 242 / Password Control = 11111111 / Number of valid Passports = 194
+Controlling Passport 243 / Password Control = 11011111 / Number of valid Passports = 194
+Controlling Passport 244 / Password Control = 01111110 / Number of valid Passports = 194
+Controlling Passport 245 / Password Control = 11111111 / Number of valid Passports = 195
+Controlling Passport 246 / Password Control = 11111110 / Number of valid Passports = 196
+Controlling Passport 247 / Password Control = 11111111 / Number of valid Passports = 197
+Controlling Passport 248 / Password Control = 11111101 / Number of valid Passports = 197
+Controlling Passport 249 / Password Control = 11111000 / Number of valid Passports = 197
+Controlling Passport 250 / Password Control = 11111111 / Number of valid Passports = 198
+Controlling Passport 251 / Password Control = 11111110 / Number of valid Passports = 199
+Controlling Passport 252 / Password Control = 11111100 / Number of valid Passports = 199
+Controlling Passport 253 / Password Control = 11101111 / Number of valid Passports = 199
+Controlling Passport 254 / Password Control = 11111110 / Number of valid Passports = 200
+Controlling Passport 255 / Password Control = 11111111 / Number of valid Passports = 201
+Controlling Passport 256 / Password Control = 10110111 / Number of valid Passports = 201
+Controlling Passport 257 / Password Control = 11111111 / Number of valid Passports = 202
+Controlling Passport 258 / Password Control = 11111010 / Number of valid Passports = 202
+Controlling Passport 259 / Password Control = 11111110 / Number of valid Passports = 203
+Controlling Passport 260 / Password Control = 11111110 / Number of valid Passports = 204
+The number of valid Passports is 204 out of 260
+#Part2
+Controlling Passport 1 / Password Control = 11111110  / Number of valid Passports = 1
+Controlling Passport 2 / Password Control = 11111111  / Number of valid Passports = 2
+Controlling Passport 3 / Password Control = 11111111  / Number of valid Passports = 3
+Controlling Passport 4 / Password Control = 11111110  / Number of valid Passports = 4
+Controlling Passport 5 / Password Control = 11111110  / Number of valid Passports = 5
+Controlling Passport 6 / Password Control = 11111111  / Number of valid Passports = 6
+Controlling Passport 7 / Password Control = 11111111  / Number of valid Passports = 7
+Controlling Passport 8 / Password Control = 11111111  / Number of valid Passports = 8
+Controlling Passport 9 / Password Control = 11111111  / Number of valid Passports = 9
+Controlling Passport 10 / Password Control = 10111111  / Number of valid Passports = 9
+Controlling Passport 11 / Password Control = 10111111  / Number of valid Passports = 9
+Controlling Passport 12 / Password Control = 11111111  / Number of valid Passports = 10
+Controlling Passport 13 / Password Control = 11011111  (eyr) / Number of valid Passports = 10
+Controlling Passport 14 / Password Control = 11111110  / Number of valid Passports = 11
+Controlling Passport 15 / Password Control = 11111111  / Number of valid Passports = 12
+Controlling Passport 16 / Password Control = 11111110  / Number of valid Passports = 13
+Controlling Passport 17 / Password Control = 11111110  / Number of valid Passports = 14
+Controlling Passport 18 / Password Control = 11000101  (hcl) (pid) (hgt) (eyr) / Number of valid Passports = 14
+Controlling Passport 19 / Password Control = 11111110  / Number of valid Passports = 15
+Controlling Passport 20 / Password Control = 11111110  / Number of valid Passports = 16
+Controlling Passport 21 / Password Control = 11111111  / Number of valid Passports = 17
+Controlling Passport 22 / Password Control = 11111110  / Number of valid Passports = 18
+Controlling Passport 23 / Password Control = 11111111  / Number of valid Passports = 19
+Controlling Passport 24 / Password Control = 11111111  / Number of valid Passports = 20
+Controlling Passport 25 / Password Control = 11011111  / Number of valid Passports = 20
+Controlling Passport 26 / Password Control = 10000000  (hcl) (eyr) (hgt) (ecl) (pid) (iyr) / Number of valid Passports = 20
+Controlling Passport 27 / Password Control = 11111110  / Number of valid Passports = 21
+Controlling Passport 28 / Password Control = 11111111  / Number of valid Passports = 22
+Controlling Passport 29 / Password Control = 11111111  / Number of valid Passports = 23
+Controlling Passport 30 / Password Control = 11111110  / Number of valid Passports = 24
+Controlling Passport 31 / Password Control = 01110000  (byr) (hcl) (pid) (ecl) / Number of valid Passports = 24
+Controlling Passport 32 / Password Control = 11111110  / Number of valid Passports = 25
+Controlling Passport 33 / Password Control = 11111111  / Number of valid Passports = 26
+Controlling Passport 34 / Password Control = 11111111  / Number of valid Passports = 27
+Controlling Passport 35 / Password Control = 11111111  / Number of valid Passports = 28
+Controlling Passport 36 / Password Control = 11111100  (pid) / Number of valid Passports = 28
+Controlling Passport 37 / Password Control = 11111110  / Number of valid Passports = 29
+Controlling Passport 38 / Password Control = 11111011  / Number of valid Passports = 29
+Controlling Passport 39 / Password Control = 11111110  / Number of valid Passports = 30
+Controlling Passport 40 / Password Control = 11111110  / Number of valid Passports = 31
+Controlling Passport 41 / Password Control = 11111111  / Number of valid Passports = 32
+Controlling Passport 42 / Password Control = 11111100  / Number of valid Passports = 32
+Controlling Passport 43 / Password Control = 11111011  / Number of valid Passports = 32
+Controlling Passport 44 / Password Control = 11111110  / Number of valid Passports = 33
+Controlling Passport 45 / Password Control = 11111110  / Number of valid Passports = 34
+Controlling Passport 46 / Password Control = 11111110  / Number of valid Passports = 35
+Controlling Passport 47 / Password Control = 11111111  / Number of valid Passports = 36
+Controlling Passport 48 / Password Control = 11111111  / Number of valid Passports = 37
+Controlling Passport 49 / Password Control = 11111110  / Number of valid Passports = 38
+Controlling Passport 50 / Password Control = 11111110  / Number of valid Passports = 39
+Controlling Passport 51 / Password Control = 11111110  / Number of valid Passports = 40
+Controlling Passport 52 / Password Control = 11110110  (hcl) / Number of valid Passports = 40
+Controlling Passport 53 / Password Control = 11111110  / Number of valid Passports = 41
+Controlling Passport 54 / Password Control = 11111110  / Number of valid Passports = 42
+Controlling Passport 55 / Password Control = 11111110  / Number of valid Passports = 43
+Controlling Passport 56 / Password Control = 11111111  / Number of valid Passports = 44
+Controlling Passport 57 / Password Control = 11111111  / Number of valid Passports = 45
+Controlling Passport 58 / Password Control = 11111111  / Number of valid Passports = 46
+Controlling Passport 59 / Password Control = 11011111  / Number of valid Passports = 46
+Controlling Passport 60 / Password Control = 11111110  / Number of valid Passports = 47
+Controlling Passport 61 / Password Control = 11111011  / Number of valid Passports = 47
+Controlling Passport 62 / Password Control = 11111111  / Number of valid Passports = 48
+Controlling Passport 63 / Password Control = 10111110  / Number of valid Passports = 48
+Controlling Passport 64 / Password Control = 00000000  (hgt) (pid) (byr) (hcl) (iyr) / Number of valid Passports = 48
+Controlling Passport 65 / Password Control = 11111110  / Number of valid Passports = 49
+Controlling Passport 66 / Password Control = 11111110  / Number of valid Passports = 50
+Controlling Passport 67 / Password Control = 11111111  / Number of valid Passports = 51
+Controlling Passport 68 / Password Control = 11111111  / Number of valid Passports = 52
+Controlling Passport 69 / Password Control = 11111111  / Number of valid Passports = 53
+Controlling Passport 70 / Password Control = 11110110  (hcl) / Number of valid Passports = 53
+Controlling Passport 71 / Password Control = 11111110  / Number of valid Passports = 54
+Controlling Passport 72 / Password Control = 11111111  / Number of valid Passports = 55
+Controlling Passport 73 / Password Control = 11111110  / Number of valid Passports = 56
+Controlling Passport 74 / Password Control = 11111111  / Number of valid Passports = 57
+Controlling Passport 75 / Password Control = 11111110  / Number of valid Passports = 58
+Controlling Passport 76 / Password Control = 11111110  / Number of valid Passports = 59
+Controlling Passport 77 / Password Control = 01110110  / Number of valid Passports = 59
+Controlling Passport 78 / Password Control = 11111010  / Number of valid Passports = 59
+Controlling Passport 79 / Password Control = 11111111  / Number of valid Passports = 60
+Controlling Passport 80 / Password Control = 11111111  / Number of valid Passports = 61
+Controlling Passport 81 / Password Control = 11111111  / Number of valid Passports = 62
+Controlling Passport 82 / Password Control = 11111110  / Number of valid Passports = 63
+Controlling Passport 83 / Password Control = 11111111  / Number of valid Passports = 64
+Controlling Passport 84 / Password Control = 11111110  / Number of valid Passports = 65
+Controlling Passport 85 / Password Control = 11111100  / Number of valid Passports = 65
+Controlling Passport 86 / Password Control = 11111111  / Number of valid Passports = 66
+Controlling Passport 87 / Password Control = 11111110  / Number of valid Passports = 67
+Controlling Passport 88 / Password Control = 11111111  / Number of valid Passports = 68
+Controlling Passport 89 / Password Control = 01111111  / Number of valid Passports = 68
+Controlling Passport 90 / Password Control = 11111110  / Number of valid Passports = 69
+Controlling Passport 91 / Password Control = 11111110  / Number of valid Passports = 70
+Controlling Passport 92 / Password Control = 11111110  / Number of valid Passports = 71
+Controlling Passport 93 / Password Control = 11101111  / Number of valid Passports = 71
+Controlling Passport 94 / Password Control = 11111110  / Number of valid Passports = 72
+Controlling Passport 95 / Password Control = 11111110  / Number of valid Passports = 73
+Controlling Passport 96 / Password Control = 01111111  / Number of valid Passports = 73
+Controlling Passport 97 / Password Control = 11111110  / Number of valid Passports = 74
+Controlling Passport 98 / Password Control = 00000000  (iyr) (eyr) (ecl) (hgt) (hcl) (pid) (byr) / Number of valid Passports = 74
+Controlling Passport 99 / Password Control = 10111110  / Number of valid Passports = 74
+Controlling Passport 100 / Password Control = 11111111  / Number of valid Passports = 75
+Controlling Passport 101 / Password Control = 11111110  / Number of valid Passports = 76
+Controlling Passport 102 / Password Control = 11111111  / Number of valid Passports = 77
+Controlling Passport 103 / Password Control = 11111110  / Number of valid Passports = 78
+Controlling Passport 104 / Password Control = 11111011  (ecl) / Number of valid Passports = 78
+Controlling Passport 105 / Password Control = 10111100  (pid) (iyr) / Number of valid Passports = 78
+Controlling Passport 106 / Password Control = 11111011  / Number of valid Passports = 78
+Controlling Passport 107 / Password Control = 11111110  / Number of valid Passports = 79
+Controlling Passport 108 / Password Control = 11111110  / Number of valid Passports = 80
+Controlling Passport 109 / Password Control = 11111111  / Number of valid Passports = 81
+Controlling Passport 110 / Password Control = 10111111  / Number of valid Passports = 81
+Controlling Passport 111 / Password Control = 11111111  / Number of valid Passports = 82
+Controlling Passport 112 / Password Control = 11111111  / Number of valid Passports = 83
+Controlling Passport 113 / Password Control = 11111111  / Number of valid Passports = 84
+Controlling Passport 114 / Password Control = 11111110  / Number of valid Passports = 85
+Controlling Passport 115 / Password Control = 11111111  / Number of valid Passports = 86
+Controlling Passport 116 / Password Control = 11011110  / Number of valid Passports = 86
+Controlling Passport 117 / Password Control = 11111100  (pid) / Number of valid Passports = 86
+Controlling Passport 118 / Password Control = 11111111  / Number of valid Passports = 87
+Controlling Passport 119 / Password Control = 11111110  / Number of valid Passports = 88
+Controlling Passport 120 / Password Control = 11111110  / Number of valid Passports = 89
+Controlling Passport 121 / Password Control = 10111111  / Number of valid Passports = 89
+Controlling Passport 122 / Password Control = 11111111  / Number of valid Passports = 90
+Controlling Passport 123 / Password Control = 11111110  / Number of valid Passports = 91
+Controlling Passport 124 / Password Control = 11111110  / Number of valid Passports = 92
+Controlling Passport 125 / Password Control = 11111101  (pid) / Number of valid Passports = 92
+Controlling Passport 126 / Password Control = 11111110  / Number of valid Passports = 93
+Controlling Passport 127 / Password Control = 10001001  (eyr) (ecl) (iyr) (hgt) / Number of valid Passports = 93
+Controlling Passport 128 / Password Control = 11110111  / Number of valid Passports = 93
+Controlling Passport 129 / Password Control = 11111110  / Number of valid Passports = 94
+Controlling Passport 130 / Password Control = 11011111  / Number of valid Passports = 94
+Controlling Passport 131 / Password Control = 11111111  / Number of valid Passports = 95
+Controlling Passport 132 / Password Control = 11111110  / Number of valid Passports = 96
+Controlling Passport 133 / Password Control = 11111110  / Number of valid Passports = 97
+Controlling Passport 134 / Password Control = 11111011  / Number of valid Passports = 97
+Controlling Passport 135 / Password Control = 10110111  / Number of valid Passports = 97
+Controlling Passport 136 / Password Control = 11111110  / Number of valid Passports = 98
+Controlling Passport 137 / Password Control = 11111111  / Number of valid Passports = 99
+Controlling Passport 138 / Password Control = 11111110  / Number of valid Passports = 100
+Controlling Passport 139 / Password Control = 11111111  / Number of valid Passports = 101
+Controlling Passport 140 / Password Control = 11111110  / Number of valid Passports = 102
+Controlling Passport 141 / Password Control = 11111111  / Number of valid Passports = 103
+Controlling Passport 142 / Password Control = 11111100  / Number of valid Passports = 103
+Controlling Passport 143 / Password Control = 11100110  (hcl) (hgt) / Number of valid Passports = 103
+Controlling Passport 144 / Password Control = 11111110  / Number of valid Passports = 104
+Controlling Passport 145 / Password Control = 11111110  / Number of valid Passports = 105
+Controlling Passport 146 / Password Control = 11111101  / Number of valid Passports = 105
+Controlling Passport 147 / Password Control = 11011111  (eyr) / Number of valid Passports = 105
+Controlling Passport 148 / Password Control = 11111111  / Number of valid Passports = 106
+Controlling Passport 149 / Password Control = 11111111  / Number of valid Passports = 107
+Controlling Passport 150 / Password Control = 11111111  / Number of valid Passports = 108
+Controlling Passport 151 / Password Control = 11111111  / Number of valid Passports = 109
+Controlling Passport 152 / Password Control = 11111110  / Number of valid Passports = 110
+Controlling Passport 153 / Password Control = 11111110  / Number of valid Passports = 111
+Controlling Passport 154 / Password Control = 11111111  / Number of valid Passports = 112
+Controlling Passport 155 / Password Control = 11111111  / Number of valid Passports = 113
+Controlling Passport 156 / Password Control = 11111111  / Number of valid Passports = 114
+Controlling Passport 157 / Password Control = 11111111  / Number of valid Passports = 115
+Controlling Passport 158 / Password Control = 11111111  / Number of valid Passports = 116
+Controlling Passport 159 / Password Control = 11111111  / Number of valid Passports = 117
+Controlling Passport 160 / Password Control = 11111111  / Number of valid Passports = 118
+Controlling Passport 161 / Password Control = 11111111  / Number of valid Passports = 119
+Controlling Passport 162 / Password Control = 11101110  / Number of valid Passports = 119
+Controlling Passport 163 / Password Control = 11111110  / Number of valid Passports = 120
+Controlling Passport 164 / Password Control = 11110110  / Number of valid Passports = 120
+Controlling Passport 165 / Password Control = 00111010  (byr) (ecl) (iyr) / Number of valid Passports = 120
+Controlling Passport 166 / Password Control = 11111010  / Number of valid Passports = 120
+Controlling Passport 167 / Password Control = 11111100  / Number of valid Passports = 120
+Controlling Passport 168 / Password Control = 11111111  / Number of valid Passports = 121
+Controlling Passport 169 / Password Control = 01111110  (byr) / Number of valid Passports = 121
+Controlling Passport 170 / Password Control = 11111100  (pid) / Number of valid Passports = 121
+Controlling Passport 171 / Password Control = 11111111  / Number of valid Passports = 122
+Controlling Passport 172 / Password Control = 11111111  / Number of valid Passports = 123
+Controlling Passport 173 / Password Control = 11011010  / Number of valid Passports = 123
+Controlling Passport 174 / Password Control = 11111111  / Number of valid Passports = 124
+Controlling Passport 175 / Password Control = 11111110  / Number of valid Passports = 125
+Controlling Passport 176 / Password Control = 11111111  / Number of valid Passports = 126
+Controlling Passport 177 / Password Control = 01111111  / Number of valid Passports = 126
+Controlling Passport 178 / Password Control = 01111100  / Number of valid Passports = 126
+Controlling Passport 179 / Password Control = 11111111  / Number of valid Passports = 127
+Controlling Passport 180 / Password Control = 10111110  (iyr) / Number of valid Passports = 127
+Controlling Passport 181 / Password Control = 11111011  / Number of valid Passports = 127
+Controlling Passport 182 / Password Control = 11111111  / Number of valid Passports = 128
+Controlling Passport 183 / Password Control = 11111110  / Number of valid Passports = 129
+Controlling Passport 184 / Password Control = 11111110  / Number of valid Passports = 130
+Controlling Passport 185 / Password Control = 11101110  (hgt) / Number of valid Passports = 130
+Controlling Passport 186 / Password Control = 11111110  / Number of valid Passports = 131
+Controlling Passport 187 / Password Control = 11111111  / Number of valid Passports = 132
+Controlling Passport 188 / Password Control = 11111110  / Number of valid Passports = 133
+Controlling Passport 189 / Password Control = 11111111  / Number of valid Passports = 134
+Controlling Passport 190 / Password Control = 11111110  / Number of valid Passports = 135
+Controlling Passport 191 / Password Control = 11111110  / Number of valid Passports = 136
+Controlling Passport 192 / Password Control = 10111110  / Number of valid Passports = 136
+Controlling Passport 193 / Password Control = 11111110  / Number of valid Passports = 137
+Controlling Passport 194 / Password Control = 11111111  / Number of valid Passports = 138
+Controlling Passport 195 / Password Control = 11111110  / Number of valid Passports = 139
+Controlling Passport 196 / Password Control = 11011111  / Number of valid Passports = 139
+Controlling Passport 197 / Password Control = 11111110  / Number of valid Passports = 140
+Controlling Passport 198 / Password Control = 11111111  / Number of valid Passports = 141
+Controlling Passport 199 / Password Control = 00100000  (ecl) (pid) (iyr) (byr) (hcl) / Number of valid Passports = 141
+Controlling Passport 200 / Password Control = 11111110  / Number of valid Passports = 142
+Controlling Passport 201 / Password Control = 11111110  / Number of valid Passports = 143
+Controlling Passport 202 / Password Control = 11111110  / Number of valid Passports = 144
+Controlling Passport 203 / Password Control = 11111111  / Number of valid Passports = 145
+Controlling Passport 204 / Password Control = 01101100  (byr) (pid) (hgt) / Number of valid Passports = 145
+Controlling Passport 205 / Password Control = 11111111  / Number of valid Passports = 146
+Controlling Passport 206 / Password Control = 11011111  / Number of valid Passports = 146
+Controlling Passport 207 / Password Control = 11111011  (ecl) / Number of valid Passports = 146
+Controlling Passport 208 / Password Control = 11111111  / Number of valid Passports = 147
+Controlling Passport 209 / Password Control = 11110110  / Number of valid Passports = 147
+Controlling Passport 210 / Password Control = 11111110  / Number of valid Passports = 148
+Controlling Passport 211 / Password Control = 11111110  / Number of valid Passports = 149
+Controlling Passport 212 / Password Control = 11101111  (hgt) / Number of valid Passports = 149
+Controlling Passport 213 / Password Control = 11111110  / Number of valid Passports = 150
+Controlling Passport 214 / Password Control = 10010110  (hcl) (eyr) / Number of valid Passports = 150
+Controlling Passport 215 / Password Control = 11111111  / Number of valid Passports = 151
+Controlling Passport 216 / Password Control = 11101110  / Number of valid Passports = 151
+Controlling Passport 217 / Password Control = 00000001  (pid) (byr) (iyr) (hcl) (ecl) (hgt) (eyr) / Number of valid Passports = 151
+Controlling Passport 218 / Password Control = 11111111  / Number of valid Passports = 152
+Controlling Passport 219 / Password Control = 11100011  (hgt) (ecl) / Number of valid Passports = 152
+Controlling Passport 220 / Password Control = 11111110  / Number of valid Passports = 153
+Controlling Passport 221 / Password Control = 11111110  / Number of valid Passports = 154
+Controlling Passport 222 / Password Control = 11110110  / Number of valid Passports = 154
+Controlling Passport 223 / Password Control = 11111110  / Number of valid Passports = 155
+Controlling Passport 224 / Password Control = 11111110  / Number of valid Passports = 156
+Controlling Passport 225 / Password Control = 11111110  / Number of valid Passports = 157
+Controlling Passport 226 / Password Control = 11111111  / Number of valid Passports = 158
+Controlling Passport 227 / Password Control = 11111111  / Number of valid Passports = 159
+Controlling Passport 228 / Password Control = 11111111  / Number of valid Passports = 160
+Controlling Passport 229 / Password Control = 01101110  / Number of valid Passports = 160
+Controlling Passport 230 / Password Control = 11111111  / Number of valid Passports = 161
+Controlling Passport 231 / Password Control = 11111111  / Number of valid Passports = 162
+Controlling Passport 232 / Password Control = 11111111  / Number of valid Passports = 163
+Controlling Passport 233 / Password Control = 11111110  / Number of valid Passports = 164
+Controlling Passport 234 / Password Control = 01111110  / Number of valid Passports = 164
+Controlling Passport 235 / Password Control = 11111111  / Number of valid Passports = 165
+Controlling Passport 236 / Password Control = 11111110  / Number of valid Passports = 166
+Controlling Passport 237 / Password Control = 11111111  / Number of valid Passports = 167
+Controlling Passport 238 / Password Control = 11111110  / Number of valid Passports = 168
+Controlling Passport 239 / Password Control = 10111110  (iyr) / Number of valid Passports = 168
+Controlling Passport 240 / Password Control = 11010111  / Number of valid Passports = 168
+Controlling Passport 241 / Password Control = 11111111  / Number of valid Passports = 169
+Controlling Passport 242 / Password Control = 11111111  / Number of valid Passports = 170
+Controlling Passport 243 / Password Control = 11011111  / Number of valid Passports = 170
+Controlling Passport 244 / Password Control = 01111110  / Number of valid Passports = 170
+Controlling Passport 245 / Password Control = 11111111  / Number of valid Passports = 171
+Controlling Passport 246 / Password Control = 11111110  / Number of valid Passports = 172
+Controlling Passport 247 / Password Control = 11111111  / Number of valid Passports = 173
+Controlling Passport 248 / Password Control = 11111101  / Number of valid Passports = 173
+Controlling Passport 249 / Password Control = 10101000  (iyr) (hgt) / Number of valid Passports = 173
+Controlling Passport 250 / Password Control = 11111111  / Number of valid Passports = 174
+Controlling Passport 251 / Password Control = 11111110  / Number of valid Passports = 175
+Controlling Passport 252 / Password Control = 11111100  / Number of valid Passports = 175
+Controlling Passport 253 / Password Control = 00101101  (pid) (iyr) (byr) / Number of valid Passports = 175
+Controlling Passport 254 / Password Control = 11101110  (hgt) / Number of valid Passports = 175
+Controlling Passport 255 / Password Control = 11111111  / Number of valid Passports = 176
+Controlling Passport 256 / Password Control = 10110111  / Number of valid Passports = 176
+Controlling Passport 257 / Password Control = 11111111  / Number of valid Passports = 177
+Controlling Passport 258 / Password Control = 11111010  / Number of valid Passports = 177
+Controlling Passport 259 / Password Control = 11111110  / Number of valid Passports = 178
+Controlling Passport 260 / Password Control = 11111110  / Number of valid Passports = 179
+The number of valid Passports is 179
+**********************
+PowerShell transcript end
+End time: 20201205142006
+**********************
